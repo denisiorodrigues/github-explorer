@@ -1,5 +1,12 @@
-import './css/global.css';
+import { Counter } from './components/Counter';
+import { RepositoryList } from './components/RepositoryList';
+import './css/global.scss';
 
 export function App(){
-  return <h1>Zé Heitor</h1>
+  return (
+    <>
+      <RepositoryList/>
+      <Counter/>
+    </>
+  )
 }
