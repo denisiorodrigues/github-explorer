@@ -1,2 +1,3 @@
-export function App(){h-\  nn vvvvvvv/
-  return <h1>Zé Heitor'
+export function App(){
+  return <h1>Zé Heitor</h1>
+}
