@@ -1,3 +1,11 @@
+interface RepositoryItemProps {
+  repository : {
+    name : String;
+    description: String;
+    html_url: String;
+  }
+}
+
 export function RepositoryItem(props){
   return (
     <li>
